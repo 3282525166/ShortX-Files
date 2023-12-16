@@ -1,15 +1,15 @@
-# ShortX Repo
+#ShortX回购
 
 这是ShortX发现页面的在线指令数据仓库，指令更新时，通过Github Action自动创建PR更新Index文件。
 
-[![Update index](https://github.com/ShortX-Repo/ShortX-Files/actions/workflows/update_index.yml/badge.svg)](https://github.com/ShortX-Repo/ShortX-Files/actions/workflows/update_index.yml)
+[![更新索引](https://github.com/ShortX-Repo/ShortX-Files/actions/workflows/update_index.yml/badge.svg)](https://github.com/ShortX-Repo/ShortX-Files/actions/workflows/update_index.yml)
 
 
 ## 如何贡献
 
 1. 通过ShortX app分享功能，保存为文件
-2. 按需修改文件中版本号`versionCode`字段
-3. 检查文件中`id`字段是否和上个版本一致（此步骤仅在更新指令时需要）
+2. 按需修改文件中版本号`版本代码`字段
+3. 检查文件中`身份证`字段是否和上个版本一致（此步骤仅在更新指令时需要）
 4. 将指令文件放到指定目录下，注意，不需要手动修改index文件
 5. 往主分支提交PR
 
@@ -21,11 +21,11 @@
 
 这是指令的索引文件，记录了所有一键指令和自动指令的基础信息以及其url
 
-`da`
+`医生无处不在（da）`
 
 这是放一键指令的目录，每个指令对应一个文件，可以通过App分享功能直接生成文件。
 
-`rules`
+`规则`
 
 这是放自动指令的目录，每个指令对应一个文件，可以通过App分享功能直接生成文件。
 
